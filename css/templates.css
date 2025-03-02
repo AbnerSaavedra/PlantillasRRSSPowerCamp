@@ -1,0 +1,61 @@
+.certification{
+    display:block;
+    font-family:'Lato',sans-serif
+}
+.certification.certification--incubacion .certification__image .certification__content{
+    top:59%;
+    left:51%
+}
+.certification.certification--incubacion .certification__image .certification__content .certification__name{
+    font-size:20.6px
+}
+.certification.certification--solido .certification__image .certification__content{
+    top:48%;
+    left:35%;
+    text-align:left;
+    width:auto
+}
+.certification.certification--solido .certification__image .certification__content .certification__name{
+    font-size:30.9px
+}
+.certification.certification--journey .certification__image .certification__content{
+    top:56%;
+    left:50%;
+    text-align:center;
+    font-size:25px;
+    width:auto
+}
+.certification.certification--journey .certification__image .certification__content .certification__name{
+    font-size:25px;
+    color:#f36432;
+}
+.certification,.certification .certification__image{
+    position:relative;
+    width:100%
+}
+.certification .certification__image img{
+    display:block;
+    max-width:100%;
+    margin:0 auto
+}
+.certification .certification__image .certification__content{
+    position:absolute;
+    top:40%;
+    left:57%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    text-align:center;
+    width:100%
+}
+.certification .certification__image .certification__content .certification__name{
+    font-size:41.2px;
+    color:#f36432;
+    margin-bottom:10.3px;
+    font-weight:700
+}
+.certification .certification__image .certification__content .certification__text{
+    font-size:20.6px;
+    color:#0e4573;
+    margin-bottom:10.3px
+}
+ 

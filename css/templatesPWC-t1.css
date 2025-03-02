@@ -1,0 +1,144 @@
+.certification{
+    display:block;
+    /* font-family:'Lato',sans-serif */
+    font-family: 'MADE GoodTime Grotesk', sans-serif;    
+}
+.certification.certification--incubacion .certification__image .certification__content{
+    top:59%;
+    left:51%
+}
+.certification.certification--incubacion .certification__image .certification__content .certification__name{
+    font-size:20.6px
+}
+.certification.certification--solido .certification__image .certification__content{
+    top:48%;
+    left:35%;
+    text-align:left;
+    width:auto
+}
+.certification.certification--solido .certification__image .certification__content .certification__name{
+    font-size:30.9px
+}
+.certification.certification--journey .certification__image .certification__content{
+    top:56%;
+    left:50%;
+    text-align:center;
+    font-size:25px;
+    width:auto
+}
+.certification.certification--journey .certification__image .certification__content .certification__name{
+    font-size:25px;
+    color:#f36432;
+}
+.certification,.certification .certification__image{
+    position:relative;
+    width:100%
+}
+.certification .certification__image img{
+    display:block;
+    max-width:100%;
+    margin:0 auto
+}
+.certification .certification__image .certification__content{
+    position:absolute;
+    top:62%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    text-align:center;
+    max-width: 64.4%;
+    width: 100%;
+    line-height: 1;
+    /* height: 25vh; */
+}
+.certification .certification__image .certification__content .certification__name{
+    /* font-size:41.2px; */
+    color:#f36432;
+    margin-bottom:10.3px;
+    /* font-weight:700 */
+}
+.certification .certification__image .certification__content .certification__text{
+    /* font-size:20.6px; */
+    color:#000;
+    margin-bottom:11.3px;
+    /* font-weight: 600; */
+}
+
+.certification__text.nombre{
+
+    font-size: 45px;
+    position: relative;
+    top: -0.5em;
+}
+
+.certification__text.programa{
+
+    font-size: 40px;
+    position: relative;
+    top: 1em;
+}
+
+.certification__text.fecha{
+
+    font-size: 23px;
+    position: relative;
+    top: 3em;
+}
+
+.certification__text.nombre, .certification__text.programa, .certification__text.fecha{
+
+    font-family: 'MADE GoodTime Grotesk', sans-serif;                        
+}
+
+@media (min-width: 1440px) {
+    .certification .certification__image .certification__content{        
+        max-width: 48%;
+        width: 100%;
+        /* border: 2px solid darkred; */
+    }
+    .certification__text.nombre{
+        top: -0.5em;               
+    }
+
+    .certification__text.programa{
+        top: 1em;               
+    }
+
+    .certification__text.fecha{
+        top: 3em;               
+    }
+}
+
+@media (max-width: 768px) {
+    .certification__text.nombre{
+
+        font-size: 12px;   
+        top: 0.2em;               
+    }
+
+    .certification__text.programa{
+
+        font-size: 11px;     
+        top: 1em;               
+    }
+
+    .certification__text.fecha{
+
+        font-size: 9px;     
+        top: 1em;               
+    }
+}
+
+/* .certification__text.programa, .certification__text.nombre{
+
+    font-size: 49px;
+}
+ 
+
+.certification__text.programa, .certification__text.fecha{
+
+    position: relative;
+    top: 2em;
+} */
+
+ 
