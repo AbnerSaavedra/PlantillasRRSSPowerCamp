@@ -64,26 +64,31 @@
     /* font-weight: 600; */
 }
 
+/* Para resoluciones de 800 * 1000px */
+
 .certification__text.nombre{
 
-    font-size: 45px;
+    font-size: 30px;
     position: relative;
-    top: -0.5em;
+    top: -1em;
 }
 
 .certification__text.programa{
 
-    font-size: 40px;
+    font-size: 28px;
     position: relative;
-    top: 1em;
+    top: 1.2em;
+    line-height: .9;
 }
 
 .certification__text.fecha{
 
-    font-size: 23px;
+    font-size: 20px;
     position: relative;
-    top: 3em;
+    top: 2.5em;
 }
+
+/* Para resoluciones de 800 * 1000px */
 
 .certification__text.nombre, .certification__text.programa, .certification__text.fecha{
 
